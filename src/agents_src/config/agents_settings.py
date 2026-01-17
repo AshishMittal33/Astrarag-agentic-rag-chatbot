@@ -4,13 +4,13 @@ from pydantic_settings import BaseSettings
 
 load_dotenv()
 
-class AgentsSettings(BaseSettings):
-    GROQ_API_URL: str
+class AgentSettings(BaseSettings):
+    GROQ_API_KEY: str
     DOCUMENTS_DIR: str
     VECTOR_STORE_DIR: str
     COLLECTION_NAME: str
     MODEL_NAME: str
-    MODEL_TEMPREATURE: float
+    MODEL_TEMPERATURE: float
 
 
     class Config:

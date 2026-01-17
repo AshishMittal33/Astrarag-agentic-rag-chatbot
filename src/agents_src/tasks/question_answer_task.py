@@ -16,7 +16,7 @@ qa_task = Task(
     description="""
 
     Answer the user query "{user_query}" using a Retrieval-Augmented Genaration(RAG) pipeline.
-    chat_history: "{chat_History}"
+    chat_history: "{chat_history}"
 
     Instructions:
     - Retrieve relevant context from the document store

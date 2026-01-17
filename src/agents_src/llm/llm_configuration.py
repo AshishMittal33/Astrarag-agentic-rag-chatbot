@@ -1,6 +1,6 @@
 LLM_CONFIH ={
     "Question Answer Agent":{
-        "model":"groq/llama3-70b-instruct",
+        "model":"groq/llama-3.3-70b-versatile",
         "temperature":0.0,
     }
 }
