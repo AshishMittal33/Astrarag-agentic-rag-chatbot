@@ -101,7 +101,7 @@ numpy==1.26.4
 
 - This mirrors real-world AI SaaS deployment patterns.
 
-#🚀 Run Locally
+# 🚀 Run Locally
 
 1. pip install -r requirements.txt
 
